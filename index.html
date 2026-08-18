@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ZenApp – Gizlilik Politikası</title>
+    <title>ZenAPP – Gizlilik Politikası / Privacy Policy</title>
 
     <meta name="description"
-          content="ZenApp Gizlilik Politikası – Kullanıcı verilerinin işlenmesi, saklanması ve korunması hakkında bilgiler.">
+          content="ZenAPP Gizlilik Politikası ve Privacy Policy">
 
     <style>
         * {
@@ -31,22 +31,22 @@
             width: 100%;
             max-width: 900px;
             margin: 0 auto;
-            padding: 30px 20px 50px;
+            padding: 30px 20px 60px;
         }
 
         .header {
             background: #ffffff;
             border-radius: 14px;
-            padding: 35px 30px;
+            padding: 35px 25px;
             margin-bottom: 25px;
             text-align: center;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
         }
 
         .header h1 {
             margin: 0 0 10px;
-            font-size: 32px;
             color: #1a73e8;
+            font-size: 32px;
         }
 
         .header p {
@@ -54,45 +54,55 @@
             color: #666;
         }
 
+        .language-links {
+            margin-top: 20px;
+        }
+
+        .language-links a {
+            display: inline-block;
+            margin: 5px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            background: #1a73e8;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
         .content {
             background: #ffffff;
             border-radius: 14px;
-            padding: 35px 35px 45px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+            padding: 35px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
         }
 
         h2 {
-            margin-top: 35px;
-            margin-bottom: 15px;
+            margin-top: 38px;
             padding-bottom: 8px;
             border-bottom: 1px solid #e5e5e5;
             color: #1a73e8;
-            font-size: 22px;
+            font-size: 23px;
         }
 
         h3 {
             margin-top: 25px;
-            margin-bottom: 10px;
             color: #333;
             font-size: 18px;
         }
 
         p {
-            margin: 10px 0 15px;
+            margin: 10px 0 16px;
         }
 
         ul {
             padding-left: 25px;
-            margin-top: 8px;
-            margin-bottom: 18px;
         }
 
         li {
-            margin-bottom: 7px;
+            margin-bottom: 8px;
         }
 
         .intro {
-            font-size: 17px;
             background: #f8faff;
             border-left: 4px solid #1a73e8;
             padding: 18px 20px;
@@ -100,12 +110,20 @@
             margin-bottom: 25px;
         }
 
-        .note {
+        .important {
             background: #fff8e1;
             border-left: 4px solid #f9ab00;
-            padding: 15px 18px;
+            padding: 18px 20px;
             border-radius: 6px;
-            margin: 15px 0;
+            margin: 20px 0;
+        }
+
+        .security {
+            background: #f3f8f4;
+            border-left: 4px solid #34a853;
+            padding: 18px 20px;
+            border-radius: 6px;
+            margin: 20px 0;
         }
 
         .contact {
@@ -124,6 +142,18 @@
             text-decoration: underline;
         }
 
+        code {
+            background: #f1f3f4;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        hr {
+            margin: 50px 0;
+            border: 0;
+            border-top: 2px solid #e5e5e5;
+        }
+
         .footer {
             text-align: center;
             color: #777;
@@ -131,13 +161,18 @@
             margin-top: 25px;
         }
 
-        strong {
-            color: #333;
+        .flow {
+            background: #f8faff;
+            border-radius: 10px;
+            padding: 18px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
         }
 
         @media (max-width: 600px) {
             .container {
-                padding: 15px 10px 30px;
+                padding: 15px 10px 35px;
             }
 
             .header {
@@ -149,19 +184,11 @@
             }
 
             .content {
-                padding: 25px 20px 35px;
+                padding: 25px 20px;
             }
 
             h2 {
                 font-size: 20px;
-            }
-
-            h3 {
-                font-size: 17px;
-            }
-
-            .intro {
-                font-size: 16px;
             }
         }
     </style>
@@ -171,247 +198,851 @@
 
 <div class="container">
 
-    <header class="header">
-        <h1>📘 ZenApp – Gizlilik Politikası</h1>
-        <p><strong>Güncelleme Tarihi: 01.01.2026</strong></p>
-    </header>
+<header class="header">
+    <h1>ZenAPP</h1>
+    <p><strong>Privacy Policy / Gizlilik Politikası</strong></p>
+    <p>Güncelleme / Last Updated: 01.01.2026</p>
 
-    <main class="content">
+    <div class="language-links">
+        <a href="#turkish">Türkçe</a>
+        <a href="#english">English</a>
+    </div>
+</header>
 
-        <div class="intro">
-            <strong>ZenApp</strong>, kullanıcı gizliliğine önem veren bir mobil uygulamadır.
-            Uygulamada işlenen veriler yalnızca cihaz içerisinde tutulur;
-            herhangi bir sunucuya gönderilmez, geliştirici tarafından görüntülenmez
-            veya üçüncü taraflarla paylaşılmaz.
-            <br><br>
-            Bu politika, ZenApp'in hangi bilgileri topladığını, nasıl kullandığını
-            ve kullanıcı haklarını açıklamaktadır.
-        </div>
 
-        <h2>1. Toplanan Bilgiler</h2>
+<!-- ========================================================= -->
+<!-- TÜRKÇE -->
+<!-- ========================================================= -->
 
-        <p>
-            ZenApp yalnızca uygulama özelliklerinin çalışması için gerekli olan
-            aşağıdaki verileri işler.
-        </p>
+<main class="content" id="turkish">
 
-        <h3>1.1 Profil Bilgileri (Kullanıcı Tarafından Girilen)</h3>
+    <h2>📘 ZenAPP – Gizlilik Politikası</h2>
 
-        <ul>
-            <li>GSM numarası</li>
-            <li>İsteğe bağlı ad</li>
-            <li>İsteğe bağlı e-mail adresi</li>
-            <li>Profil fotoğrafı</li>
-        </ul>
+    <p><strong>Güncelleme Tarihi: 01.01.2026</strong></p>
 
-        <p>
-            Bu bilgiler yalnızca cihazda saklanır, uygulama dışına aktarılmaz.
-        </p>
+    <div class="intro">
+        <strong>ZenAPP</strong>, kullanıcı gizliliğine ve mesaj güvenliğine
+        önem veren bir Android mobil uygulamasıdır.
+        Uygulamanın standart Encode/Decode işlemleri cihaz üzerinde
+        gerçekleştirilir.
+        <br><br>
+        Bununla birlikte, <strong>Zen-Chat</strong> özelliğinin çalışabilmesi
+        için internet bağlantısı ve çevrim içi hizmet altyapısı kullanılabilir.
+    </div>
 
-        <h3>1.2 Mesaj İçerikleri</h3>
 
-        <ul>
-            <li>Kullanıcının yazdığı metinler</li>
-            <li>Encode / Decode edilen mesajlar</li>
-            <li>Kullanıcının isteğe bağlı kaydettiği tek Encode kaydı</li>
-        </ul>
+    <h2>1. Toplanan ve İşlenen Bilgiler</h2>
 
-        <p>
-            Tüm işlemler cihaz içinde yapılır; veriler herhangi bir sunucuya
-            gönderilmez.
-        </p>
+    <p>
+        ZenAPP, kullanılan özelliklere bağlı olarak aşağıdaki bilgileri
+        işleyebilir.
+    </p>
 
-        <h3>1.3 Rehber Bilgileri (Kullanıcı İzin Verirse)</h3>
 
-        <ul>
-            <li>Ad ve soyad</li>
-            <li>GSM numarası</li>
-            <li>E-mail adresi (cihaz destekliyorsa)</li>
-        </ul>
+    <h3>1.1 Profil Bilgileri</h3>
 
-        <p>Rehber verileri yalnızca:</p>
+    <ul>
+        <li>GSM numarası</li>
+        <li>İsteğe bağlı ad</li>
+        <li>İsteğe bağlı e-mail adresi</li>
+        <li>Profil fotoğrafı</li>
+    </ul>
 
-        <ul>
-            <li>Encode işlemlerinde GSM doğrulaması yapmak,</li>
-            <li>Kullanıcının hızlı seçim yapmasını sağlamak</li>
-        </ul>
+    <p>
+        Profil bilgileri, uygulamanın ilgili özelliklerinin çalışması
+        amacıyla cihaz üzerinde kullanılabilir.
+    </p>
 
-        <p>
-            amacıyla cihaz içinde işlenir.
-        </p>
 
-        <h3>1.4 Kamera / Galeri (Kullanıcı İzin Verirse)</h3>
+    <h3>1.2 Mesaj İçerikleri</h3>
 
-        <ul>
-            <li>Profil fotoğrafı çekme veya seçme işlemleri</li>
-        </ul>
+    <ul>
+        <li>Kullanıcının yazdığı mesajlar</li>
+        <li>Encode / Decode edilen mesajlar</li>
+        <li>Kullanıcının isteğe bağlı olarak kaydettiği Encode kaydı</li>
+    </ul>
 
-        <p>
-            Seçilen veya çekilen fotoğraflar cihaz içinde saklanır.
-        </p>
+    <p>
+        ZenAPP'ın standart Encode/Decode işlemleri cihaz üzerinde
+        gerçekleştirilir.
+    </p>
 
-        <h3>1.5 SMS Onay Kodu (GSM Doğrulama)</h3>
 
-        <ul>
-            <li>
-                ZenApp, kullanıcının kendi GSM numarasını doğrulaması için,
-                harici bir SMS servisi tarafından gönderilen onay kodunun
-                kullanıcı tarafından manuel olarak girilmesini ister.
-            </li>
+    <h3>1.3 Rehber Bilgileri</h3>
 
-            <li>
-                Onay kodu ZenApp tarafından gönderilmez; uygulama SMS gönderme
-                işlemi yapmaz.
-            </li>
+    <p>
+        Kullanıcı izin verdiği takdirde uygulama cihaz rehberindeki
+        aşağıdaki bilgileri kullanabilir:
+    </p>
 
-            <li>
-                Uygulama SMS okuma veya otomatik doğrulama işlemlerini gerçekleştirmez.
-            </li>
+    <ul>
+        <li>Ad ve soyad</li>
+        <li>GSM numarası</li>
+        <li>E-mail adresi (cihaz destekliyorsa)</li>
+    </ul>
 
-            <li>
-                Kullanıcının girdiği onay kodu cihaz içinde lokal olarak doğrulanır
-                ve herhangi bir sunucuya veya üçüncü tarafa iletilmez.
-            </li>
+    <p>
+        Rehber bilgileri yalnızca GSM doğrulaması ve kullanıcıya
+        hızlı seçim olanağı sağlamak amacıyla cihaz üzerinde işlenir.
+    </p>
 
-            <li>
-                ZenApp <code>READ_SMS</code> ve <code>RECEIVE_SMS</code>
-                izinlerini kullanmaz; uygulama gelen SMS'leri okuyamaz.
-            </li>
-        </ul>
 
-        <h2>2. Verilerin Kullanım Amaçları</h2>
+    <h3>1.4 Kamera / Galeri</h3>
 
-        <p>Toplanan veriler aşağıdaki amaçlarla kullanılır:</p>
+    <p>
+        Kullanıcının izniyle profil fotoğrafı çekmek veya cihaz
+        galerisinden fotoğraf seçmek için kamera veya galeri erişimi
+        kullanılabilir.
+    </p>
 
-        <ul>
-            <li>Encode / Decode işlemlerini gerçekleştirmek</li>
-            <li>Mesaj güvenliğini sağlamak</li>
-            <li>Profil bilgilerinin uygulamada görüntülenmesi</li>
-            <li>Rehber üzerinden hızlı GSM seçimi</li>
-            <li>Anlık mesajlaşma (Zen-Chat)</li>
-            <li>WhatsApp, e-mail veya diğer uygulamalara mesaj aktarımı</li>
-            <li>Kullanıcının manuel olarak girdiği GSM onay kodunun doğrulanması</li>
-        </ul>
+    <p>
+        Profil fotoğrafları ZenAPP tarafından ilgili özellikler
+        kapsamında cihaz üzerinde saklanabilir.
+    </p>
 
-        <p>
-            ZenApp, kullanıcı verilerini üçüncü taraflarla paylaşmaz.
-        </p>
 
-        <h2>3. Veri Saklama</h2>
+    <h3>1.5 SMS Onay Kodu – GSM Doğrulama</h3>
 
-        <ul>
-            <li>Tüm veriler kullanıcının cihazında saklanır.</li>
-            <li>Sunucuya gönderilen hiçbir kişisel veri yoktur.</li>
-            <li>Uygulamanın kaldırılması halinde uygulama tarafından cihazda tutulan veriler silinir.</li>
-            <li>Kullanıcı isterse profil fotoğrafı ve diğer bilgileri manuel olarak silebilir.</li>
-        </ul>
+    <ul>
+        <li>
+            GSM doğrulaması için harici bir SMS servisi tarafından
+            gönderilen onay kodu kullanıcı tarafından manuel olarak
+            ZenAPP'a girilir.
+        </li>
 
-        <h2>4. Mesaj Güvenliği</h2>
+        <li>
+            ZenAPP SMS göndermez.
+        </li>
 
-        <p>
-            ZenApp'ta mesaj Encode / Decode işlemleri tamamen offline olarak
+        <li>
+            ZenAPP gelen SMS mesajlarını otomatik olarak okumaz.
+        </li>
+
+        <li>
+            Uygulama <code>READ_SMS</code> ve
+            <code>RECEIVE_SMS</code> izinlerini kullanmaz.
+        </li>
+
+        <li>
+            Kullanıcının girdiği onay kodu cihaz içerisinde lokal olarak
+            işlenir ve ZenAPP tarafından üçüncü taraflara gönderilmez.
+        </li>
+    </ul>
+
+
+    <h2>2. Zen-Chat</h2>
+
+    <div class="security">
+        <strong>
+            Zen-Chat internet bağlantısı kullanarak anlık mesajlaşma
+            hizmeti sağlar.
+        </strong>
+    </div>
+
+    <p>
+        Zen-Chat, kullanıcıların ZenAPP içerisinde internet üzerinden
+        mesajlaşmasına olanak sağlayan bir özelliktir.
+    </p>
+
+    <p>
+        Kullanıcı tarafından oluşturulan mesaj, Zen-Chat üzerinden
+        gönderilmeden önce ZenAPP'ın Encode mekanizması kullanılarak
+        Encode edilir.
+    </p>
+
+    <p>
+        Encode edilmiş mesaj, alıcıya ulaştırılabilmesi amacıyla
+        internet üzerinden kullanılan çevrim içi hizmet altyapısına
+        iletilir.
+    </p>
+
+
+    <div class="flow">
+        Gönderen Cihaz → Encode → Supabase → Alıcı Cihaz → Decode
+        <br><br>
+        Firebase / FCM → Yeni Mesaj Bildirimi
+    </div>
+
+
+    <h3>2.1 Supabase Kullanımı</h3>
+
+    <p>
+        ZenAPP, Zen-Chat mesajlarının gönderilmesi ve alıcıya
+        ulaştırılması amacıyla <strong>Supabase</strong> hizmetinden
+        yararlanabilir.
+    </p>
+
+    <p>
+        Zen-Chat kapsamında Supabase altyapısında aşağıdaki bilgiler
+        geçici olarak işlenebilir:
+    </p>
+
+    <ul>
+        <li>Encode edilmiş mesaj</li>
+        <li>Mesaj gönderim zamanı</li>
+    </ul>
+
+    <div class="important">
+        <strong>Mesaj Saklama Süresi:</strong>
+        Zen-Chat kapsamında sunucu altyapısında tutulan Encode edilmiş
+        mesajlar, mesajın gönderilmesinden itibaren en fazla
+        <strong>3 saat</strong> süreyle saklanır ve ardından otomatik
+        olarak silinir.
+    </div>
+
+
+    <h3>2.2 Firebase / Firebase Cloud Messaging (FCM)</h3>
+
+    <p>
+        ZenAPP, Zen-Chat kapsamında alıcıya yeni bir mesaj geldiğini
+        bildirmek amacıyla <strong>Firebase Cloud Messaging (FCM)</strong>
+        hizmetini kullanabilir.
+    </p>
+
+    <p>
+        Firebase/FCM'nin amacı, alıcı cihazda yeni bir Zen-Chat mesajı
+        bulunduğuna ilişkin bir <strong>push notification</strong>
+        göstermektir.
+    </p>
+
+    <p>
+        Push notification içerisinde mesajın kendisi veya mesajın
+        Encode edilmiş içeriği gönderilmez. Bildirim, yalnızca yeni
+        bir mesaj bulunduğunu kullanıcıya bildirmek amacıyla kullanılır.
+    </p>
+
+    <p>
+        Bildirim hizmetinin çalışması için Firebase tarafından sağlanan
+        teknik bildirim bilgileri ve cihazla ilişkili bildirim
+        tanımlayıcıları işlenebilir.
+    </p>
+
+
+    <h3>2.3 Zen-Chat Mesaj Güvenliği</h3>
+
+    <p>
+        Zen-Chat mesajları sunucu altyapısına gönderilmeden önce
+        Encode edilir.
+    </p>
+
+    <p>
+        Sunucu tarafında mesajın Encode edilmiş hali bulunur.
+        Mesajın okunabilir içeriğinin görüntülenmesi için gerekli
+        Decode işlemi alıcı cihazında gerçekleştirilir.
+    </p>
+
+    <p>
+        ZenAPP'ın amacı, Zen-Chat mesajlarını kalıcı bir mesaj arşivi
+        olarak saklamak değildir.
+    </p>
+
+
+    <h2>3. Verilerin Kullanım Amaçları</h2>
+
+    <ul>
+        <li>Encode / Decode işlemlerini gerçekleştirmek</li>
+        <li>Mesaj güvenliğini sağlamak</li>
+        <li>Profil bilgilerini uygulamada göstermek</li>
+        <li>Rehber üzerinden hızlı GSM seçimi sağlamak</li>
+        <li>Zen-Chat mesajlaşma hizmetini sağlamak</li>
+        <li>Zen-Chat mesajlarını alıcıya ulaştırmak</li>
+        <li>Yeni Zen-Chat mesajları hakkında bildirim göstermek</li>
+        <li>WhatsApp, e-mail veya diğer uygulamalara mesaj aktarımı sağlamak</li>
+        <li>GSM doğrulamasını gerçekleştirmek</li>
+    </ul>
+
+    <p>
+        ZenAPP kullanıcı verilerini reklam amacıyla satmaz veya
+        üçüncü taraflara pazarlama amacıyla paylaşmaz.
+    </p>
+
+
+    <h2>4. Veri Saklama</h2>
+
+    <ul>
+        <li>
+            Standart Encode/Decode işlemleri cihaz üzerinde
             gerçekleştirilir.
+        </li>
+
+        <li>
+            Zen-Chat mesajları internet üzerinden çevrim içi hizmet
+            altyapısına iletilebilir.
+        </li>
+
+        <li>
+            Zen-Chat kapsamında sunucuda tutulan Encode edilmiş
+            mesajlar en fazla 3 saat sonra otomatik olarak silinir.
+        </li>
+
+        <li>
+            Mesaj gönderim zamanı, mesajın iletilmesi ve saklama
+            süresinin yönetilmesi amacıyla işlenebilir.
+        </li>
+
+        <li>
+            Firebase/FCM tarafından kullanılan bildirim bilgileri,
+            bildirim hizmetinin çalışması amacıyla işlenebilir.
+        </li>
+
+        <li>
+            Kullanıcının cihazında yerel olarak saklanan profil ve
+            diğer bilgiler, uygulama içerisindeki ilgili seçenekler
+            kullanılarak silinebilir.
+        </li>
+    </ul>
+
+
+    <h2>5. Üçüncü Taraf Hizmetleri</h2>
+
+    <p>
+        ZenAPP, belirli özelliklerin çalışması için üçüncü taraf
+        hizmetlerden yararlanabilir.
+    </p>
+
+    <ul>
+        <li>
+            <strong>Supabase:</strong>
+            Zen-Chat mesajlarının çevrim içi olarak iletilmesi ve
+            geçici olarak saklanması.
+        </li>
+
+        <li>
+            <strong>Firebase / Firebase Cloud Messaging:</strong>
+            Yeni Zen-Chat mesajları hakkında push notification
+            gönderilmesi.
+        </li>
+
+        <li>
+            <strong>WhatsApp:</strong>
+            Kullanıcının isteği doğrultusunda mesaj paylaşımı.
+        </li>
+
+        <li>
+            <strong>E-mail uygulamaları:</strong>
+            Kullanıcının isteği doğrultusunda mesaj paylaşımı.
+        </li>
+
+        <li>
+            <strong>Diğer iletişim uygulamaları:</strong>
+            Kullanıcının tercihine bağlı mesaj paylaşımı.
+        </li>
+    </ul>
+
+    <p>
+        Üçüncü taraf hizmet sağlayıcıların kendi gizlilik politikaları
+        ve veri işleme kuralları bulunmaktadır.
+    </p>
+
+    <p>
+        ZenAPP, üçüncü taraf hizmet sağlayıcıların kendi sistemleri
+        içerisindeki veri işleme faaliyetlerini kontrol etmez.
+    </p>
+
+
+    <h2>6. Güvenlik</h2>
+
+    <p>
+        ZenAPP, kullanıcı bilgilerinin ve mesajların güvenliğini
+        korumak amacıyla uygun teknik güvenlik yöntemlerini kullanmayı
+        amaçlar.
+    </p>
+
+    <p>
+        Zen-Chat mesajları çevrim içi hizmet altyapısına gönderilmeden
+        önce Encode edilir.
+    </p>
+
+    <p>
+        Bununla birlikte, internet üzerinden gerçekleştirilen hiçbir
+        veri aktarımının mutlak olarak %100 güvenli olduğu garanti
+        edilemez.
+    </p>
+
+
+    <h2>7. Loglama ve Arka Kapı</h2>
+
+    <p>
+        ZenAPP kullanıcıların kişisel iletişimlerini gizlice izlemek
+        veya kullanıcı verilerini gizli şekilde toplamak amacıyla
+        tasarlanmamıştır.
+    </p>
+
+    <p>
+        Uygulamada kullanıcı iletişimlerini gizlice izlemek amacıyla
+        arka kapı veya gizli kayıt mekanizması bulunması amaçlanmamaktadır.
+    </p>
+
+
+    <h2>8. Kullanıcı Hakları (KVKK / GDPR)</h2>
+
+    <p>
+        Kullanıcılar, yürürlükteki mevzuat kapsamında sahip oldukları
+        haklar çerçevesinde:
+    </p>
+
+    <ul>
+        <li>Kendi verileri hakkında bilgi talep etme</li>
+        <li>Yanlış bilgilerin düzeltilmesini isteme</li>
+        <li>Uygun olduğu durumlarda verilerin silinmesini isteme</li>
+        <li>Yerel olarak saklanan profil bilgilerini silme</li>
+    </ul>
+
+    <p>
+        haklarına sahip olabilir.
+    </p>
+
+
+    <h2>9. Çocukların Gizliliği</h2>
+
+    <p>
+        ZenAPP çocuklardan bilinçli olarak kişisel veri toplamayı
+        amaçlamaz.
+    </p>
+
+
+    <h2>10. Gizlilik Politikası Değişiklikleri</h2>
+
+    <p>
+        Bu Gizlilik Politikası, uygulamanın özelliklerinde, teknik
+        altyapısında veya ilgili mevzuatta meydana gelen değişikliklere
+        bağlı olarak güncellenebilir.
+    </p>
+
+    <p>
+        Güncellenen politika bu sayfada yayınlandığı tarihten itibaren
+        geçerli olur.
+    </p>
+
+
+    <h2>11. İletişim</h2>
+
+    <div class="contact">
+        <p>
+            Gizlilik, veri güvenliği veya ZenAPP hakkında sorularınız
+            için bizimle iletişime geçebilirsiniz.
         </p>
-
-        <ul>
-            <li>Mesajlar Encode / Decode işlemleri sırasında cihaz dışına çıkarılmaz.</li>
-            <li>Uygulamada gizli loglama, arka kapı veya gizli kayıt mekanizması yoktur.</li>
-            <li>Mesaj güvenliği, kullanıcının belirlediği güvenlik bilgilerine bağlıdır.</li>
-        </ul>
-
-        <h2>5. Zen-Chat</h2>
 
         <p>
-            Zen-Chat, kullanıcıların ZenApp içerisinde anlık mesajlaşma amacıyla
-            kullanabileceği bir özelliktir.
+            <strong>E-mail:</strong>
+            <a href="mailto:zenappencode@gmail.com">
+                zenappencode@gmail.com
+            </a>
+        </p>
+    </div>
+
+</main>
+
+
+<!-- ========================================================= -->
+<!-- ENGLISH -->
+<!-- ========================================================= -->
+
+<hr>
+
+<main class="content" id="english">
+
+    <h2>📘 ZenAPP – Privacy Policy</h2>
+
+    <p><strong>Last Updated: January 1, 2026</strong></p>
+
+    <div class="intro">
+        <strong>ZenAPP</strong> is an Android mobile application designed
+        with a focus on user privacy and message security.
+        Standard Encode/Decode operations are performed locally on
+        the user's device.
+        <br><br>
+        However, the <strong>Zen-Chat</strong> feature may require an
+        Internet connection and online service infrastructure.
+    </div>
+
+
+    <h2>1. Information Collected and Processed</h2>
+
+    <p>
+        Depending on the features used, ZenAPP may process the
+        following information.
+    </p>
+
+
+    <h3>1.1 Profile Information</h3>
+
+    <ul>
+        <li>GSM / telephone number</li>
+        <li>Optional name</li>
+        <li>Optional email address</li>
+        <li>Profile photo</li>
+    </ul>
+
+
+    <h3>1.2 Message Content</h3>
+
+    <ul>
+        <li>Messages written by the user</li>
+        <li>Encoded / Decoded messages</li>
+        <li>One optional Encode record saved by the user</li>
+    </ul>
+
+    <p>
+        Standard Encode/Decode operations are performed locally on
+        the user's device.
+    </p>
+
+
+    <h3>1.3 Contacts</h3>
+
+    <p>
+        If permission is granted, ZenAPP may access contact information
+        stored on the device.
+    </p>
+
+    <ul>
+        <li>Name and surname</li>
+        <li>GSM / telephone number</li>
+        <li>Email address, if supported by the device</li>
+    </ul>
+
+    <p>
+        Contact information is processed locally to support GSM
+        verification and convenient contact selection.
+    </p>
+
+
+    <h3>1.4 Camera / Gallery</h3>
+
+    <p>
+        With the user's permission, camera or gallery access may be
+        used to capture or select a profile photo.
+    </p>
+
+    <p>
+        Profile photos may be stored locally on the device for use
+        by the relevant ZenAPP features.
+    </p>
+
+
+    <h3>1.5 SMS Verification Code</h3>
+
+    <ul>
+        <li>
+            For GSM verification, the user manually enters a verification
+            code received from an external SMS service.
+        </li>
+
+        <li>
+            ZenAPP does not send SMS messages.
+        </li>
+
+        <li>
+            ZenAPP does not automatically read incoming SMS messages.
+        </li>
+
+        <li>
+            The application does not use the
+            <code>READ_SMS</code> or <code>RECEIVE_SMS</code>
+            permissions.
+        </li>
+
+        <li>
+            The verification code entered by the user is processed
+            locally and is not transmitted by ZenAPP to third parties.
+        </li>
+    </ul>
+
+
+    <h2>2. Zen-Chat</h2>
+
+    <div class="security">
+        <strong>
+            Zen-Chat provides real-time messaging using an Internet
+            connection.
+        </strong>
+    </div>
+
+    <p>
+        Zen-Chat allows users to communicate with each other through
+        ZenAPP over the Internet.
+    </p>
+
+    <p>
+        Before transmission, the message created by the user is
+        Encoded using ZenAPP's Encode mechanism.
+    </p>
+
+    <p>
+        The Encoded message may then be transmitted through the online
+        service infrastructure in order to deliver it to the intended
+        recipient.
+    </p>
+
+
+    <div class="flow">
+        Sender Device → Encode → Supabase → Recipient Device → Decode
+        <br><br>
+        Firebase / FCM → New Message Notification
+    </div>
+
+
+    <h3>2.1 Use of Supabase</h3>
+
+    <p>
+        ZenAPP may use <strong>Supabase</strong> to transmit and
+        temporarily store Zen-Chat messages for delivery to the
+        intended recipient.
+    </p>
+
+    <p>
+        The following information may be temporarily processed through
+        the Supabase infrastructure:
+    </p>
+
+    <ul>
+        <li>Encoded message</li>
+        <li>Message sending timestamp</li>
+    </ul>
+
+    <div class="important">
+        <strong>Message Retention:</strong>
+        Encoded Zen-Chat messages stored within the service
+        infrastructure are automatically deleted after a maximum
+        period of <strong>3 hours</strong> from the time they are sent.
+    </div>
+
+
+    <h3>2.2 Firebase / Firebase Cloud Messaging (FCM)</h3>
+
+    <p>
+        ZenAPP may use <strong>Firebase Cloud Messaging (FCM)</strong>
+        to notify the recipient that a new Zen-Chat message has arrived.
+    </p>
+
+    <p>
+        The purpose of Firebase/FCM is to display a
+        <strong>push notification</strong> informing the recipient
+        that a new Zen-Chat message is available.
+    </p>
+
+    <p>
+        The message itself, including its Encoded content, is not
+        included in the push notification. The notification is intended
+        only to inform the user that a new message is available.
+    </p>
+
+    <p>
+        Technical notification information and device-related
+        notification identifiers may be processed by Firebase as
+        necessary to provide the notification service.
+    </p>
+
+
+    <h3>2.3 Zen-Chat Message Security</h3>
+
+    <p>
+        Zen-Chat messages are Encoded before being transmitted to the
+        online service infrastructure.
+    </p>
+
+    <p>
+        The server-side system receives the Encoded form of the message.
+        The required Decode operation is performed on the recipient's
+        device in order to display the readable message content.
+    </p>
+
+    <p>
+        ZenAPP does not intend to maintain a permanent archive of
+        Zen-Chat messages.
+    </p>
+
+
+    <h2>3. Purposes of Processing</h2>
+
+    <ul>
+        <li>Performing Encode / Decode operations</li>
+        <li>Providing message security</li>
+        <li>Displaying profile information</li>
+        <li>Providing quick GSM/contact selection</li>
+        <li>Providing Zen-Chat messaging</li>
+        <li>Delivering Zen-Chat messages to the intended recipient</li>
+        <li>Providing notifications for new Zen-Chat messages</li>
+        <li>Sharing messages through WhatsApp, email, or other applications</li>
+        <li>Performing GSM verification</li>
+    </ul>
+
+    <p>
+        ZenAPP does not sell user information or share user information
+        with third parties for advertising or marketing purposes.
+    </p>
+
+
+    <h2>4. Data Retention</h2>
+
+    <ul>
+        <li>
+            Standard Encode/Decode operations are performed locally
+            on the user's device.
+        </li>
+
+        <li>
+            Zen-Chat messages may be transmitted through online
+            service infrastructure.
+        </li>
+
+        <li>
+            Encoded Zen-Chat messages stored on the service infrastructure
+            are automatically deleted after a maximum of 3 hours.
+        </li>
+
+        <li>
+            The message sending timestamp may be processed for message
+            delivery and retention management.
+        </li>
+
+        <li>
+            Firebase/FCM notification information may be processed as
+            necessary to provide push notifications.
+        </li>
+
+        <li>
+            Locally stored profile information and other local data
+            may be deleted through the relevant application features.
+        </li>
+    </ul>
+
+
+    <h2>5. Third-Party Services</h2>
+
+    <p>
+        ZenAPP may use third-party services to provide certain features.
+    </p>
+
+    <ul>
+        <li>
+            <strong>Supabase:</strong>
+            Online transmission and temporary storage of Zen-Chat
+            messages.
+        </li>
+
+        <li>
+            <strong>Firebase / Firebase Cloud Messaging:</strong>
+            Push notifications informing users about new Zen-Chat
+            messages.
+        </li>
+
+        <li>
+            <strong>WhatsApp:</strong>
+            Message sharing when selected by the user.
+        </li>
+
+        <li>
+            <strong>Email applications:</strong>
+            Message sharing when selected by the user.
+        </li>
+
+        <li>
+            <strong>Other communication applications:</strong>
+            Message sharing according to the user's choice.
+        </li>
+    </ul>
+
+    <p>
+        Third-party service providers have their own privacy policies
+        and data-processing practices.
+    </p>
+
+    <p>
+        ZenAPP is not responsible for data processing performed by
+        third-party services within their own systems.
+    </p>
+
+
+    <h2>6. Security</h2>
+
+    <p>
+        ZenAPP is designed to use appropriate technical security
+        measures to help protect user information and messages.
+    </p>
+
+    <p>
+        Zen-Chat messages are Encoded before being transmitted to the
+        online service infrastructure.
+    </p>
+
+    <p>
+        However, no method of transmission over the Internet can be
+        guaranteed to be 100% secure.
+    </p>
+
+
+    <h2>7. Logging and Backdoors</h2>
+
+    <p>
+        ZenAPP is not designed to secretly monitor users' personal
+        communications or secretly collect user information.
+    </p>
+
+    <p>
+        The application is not intended to contain a backdoor or hidden
+        recording mechanism for secretly monitoring user communications.
+    </p>
+
+
+    <h2>8. User Rights (KVKK / GDPR)</h2>
+
+    <p>
+        Subject to applicable law, users may have rights including:
+    </p>
+
+    <ul>
+        <li>Requesting information about their personal data</li>
+        <li>Requesting correction of inaccurate information</li>
+        <li>Requesting deletion where legally applicable</li>
+        <li>Deleting locally stored profile information</li>
+    </ul>
+
+
+    <h2>9. Children's Privacy</h2>
+
+    <p>
+        ZenAPP does not knowingly seek to collect personal information
+        from children.
+    </p>
+
+
+    <h2>10. Changes to This Privacy Policy</h2>
+
+    <p>
+        This Privacy Policy may be updated when the application's
+        features, technical infrastructure, or applicable legal
+        requirements change.
+    </p>
+
+    <p>
+        Updated versions become effective when published on this page.
+    </p>
+
+
+    <h2>11. Contact</h2>
+
+    <div class="contact">
+        <p>
+            If you have questions regarding privacy, data security,
+            or ZenAPP, please contact us.
         </p>
 
         <p>
-            Zen-Chat kapsamında kullanılan verilerin işlenme şekli, uygulamanın
-            mevcut teknik altyapısına ve kullanılan iletişim yöntemlerine bağlıdır.
+            <strong>Email:</strong>
+            <a href="mailto:zenappencode@gmail.com">
+                zenappencode@gmail.com
+            </a>
         </p>
+    </div>
 
-        <div class="note">
-            <strong>Not:</strong>
-            Eğer Zen-Chat mesajları herhangi bir sunucu, veritabanı veya
-            üçüncü taraf servis üzerinden iletiliyorsa, bu verilerin nasıl
-            işlendiği ve ne kadar süreyle saklandığı ayrıca açıklanmalıdır.
-        </div>
+</main>
 
-        <h2>6. Üçüncü Taraf Hizmetleri</h2>
 
-        <p>
-            ZenApp, mesaj paylaşımı için aşağıdaki uygulamaları kullanabilir:
-        </p>
-
-        <ul>
-            <li>WhatsApp</li>
-            <li>E-mail uygulamaları</li>
-            <li>Diğer sosyal paylaşım uygulamaları</li>
-        </ul>
-
-        <p>
-            Bu uygulamalar kendi gizlilik politikalarına sahiptir.
-            ZenApp, üçüncü taraf uygulamaların kendi sistemlerinde gerçekleştirdiği
-            veri işleme faaliyetlerini kontrol etmez.
-        </p>
-
-        <h2>7. Kullanıcı Hakları (KVKK / GDPR)</h2>
-
-        <p>Kullanıcılar, yürürlükteki mevzuat kapsamında:</p>
-
-        <ul>
-            <li>Kendi verilerini görüntüleme</li>
-            <li>Yanlış bilgileri düzeltme</li>
-            <li>Profil ve kayıtlı bilgileri silme</li>
-            <li>Uygulamayı kaldırarak uygulama tarafından cihazda tutulan verileri silme</li>
-        </ul>
-
-        <p>
-            haklarına sahiptir.
-        </p>
-
-        <h2>8. Güvenlik</h2>
-
-        <p>
-            ZenApp, kullanıcı verilerini cihaz içinde korumak için standart
-            mobil güvenlik yöntemlerinden yararlanır.
-        </p>
-
-        <p>
-            WhatsApp, e-mail ve diğer üçüncü taraf uygulamalar üzerinden
-            gerçekleştirilen gönderimler, ilgili uygulamaların kendi güvenlik
-            ve gizlilik kurallarına tabidir.
-        </p>
-
-        <h2>9. Politika Değişiklikleri</h2>
-
-        <p>
-            Bu Gizlilik Politikası gerektiğinde güncellenebilir.
-            Yapılan değişiklikler bu sayfada yayınlandığı tarihte geçerli olur.
-        </p>
-
-        <h2>10. İletişim</h2>
-
-        <div class="contact">
-            <p>
-                Gizlilik Politikası veya ZenApp hakkında sorularınız için
-                bizimle iletişime geçebilirsiniz.
-            </p>
-
-            <p>
-                <strong>E-mail:</strong>
-                <a href="mailto:zenappencode@gmail.com">
-                    zenappencode@gmail.com
-                </a>
-            </p>
-        </div>
-
-    </main>
-
-    <footer class="footer">
-        © 2026 ZenApp. All rights reserved.
-    </footer>
+<footer class="footer">
+    © 2026 ZenAPP. All rights reserved.
+</footer>
 
 </div>
 
